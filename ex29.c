@@ -53,7 +53,7 @@ int main(void)
 	if(p<=5)
 	{
 		t = v - q;
-		printf("Seu troco é de: R$%f\n\n", t);
+		printf("Seu troco é de: R$%.2f\n\n", t);
 	}
 
 	if(t>=1)
